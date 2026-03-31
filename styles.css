@@ -1,0 +1,48 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem
+}
+
+.navbar ul {
+list-style: none;
+margin:  0;
+padding: 0;
+display: flex;
+gap: 1rem;
+justify-content: right;
+}
+
+.navbar a { 
+color: white;
+text-decoration: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(5, 93, 64);
+font-size: 36px;
+font-weight: bold
+}
+    
+
+.hero {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(193, 211, 205);
+height: 10vh;
+}
+
+.hero p {
+max-width: 800px;
+text-align: center;
+padding: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
